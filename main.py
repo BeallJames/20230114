@@ -9,6 +9,8 @@ def guess(x):
             print(f'higher ')
         elif guess > random_number:
             print(f'lower ')
-        elif guess == random_number:
-            print(f'correct, {random_number}! ')
+        # elif guess == random_number:
+        #     print(f'correct, {random_number}! ')
+    print(f'correct, {random_number}')
+    
 guess(10)
